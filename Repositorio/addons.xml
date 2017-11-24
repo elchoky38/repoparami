@@ -64,7 +64,7 @@
 
 <addon id="plugin.video.rincon.gitano"
        name="[COLOR fuchsia]g[/COLOR][COLOR green]i[/COLOR][COLOR yellow]t[/COLOR][COLOR orange]a[/COLOR][COLOR pink]no[/COLOR]"
-       version="1.0.0"
+       version="1.0.1"
        provider-name="torete">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
