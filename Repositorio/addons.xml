@@ -63,8 +63,8 @@
 </addon>
 
 <addon id="plugin.video.rincon.gitano"
-       name="[COLOR fuchsia]g[/COLOR][COLOR green]i[/COLOR][COLOR yellow]t[/COLOR][COLOR orange]a[/COLOR][COLOR pink]no[/COLOR]"
-       version="1.0.1"
+       name="[COLOR fuchsia]rincon gitano[/COLOR]"
+       version="1.0.0"
        provider-name="torete">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -85,51 +85,15 @@
     <provides>video</provides>
   </extension>
 
-  <extension point="xbmc.addon.repository" name="rincon gitano ">
-        <info>https://raw.githubusercontent.com/elchoky38/repoparami/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/elchoky38/repoparami/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/elchoky38/master/Repositorio/</datadir>
+   <extension point="xbmc.addon.repository" name="rincon gitano">
+        <info>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/</datadir>
     </extension>
-
-
 
   <extension point="xbmc.addon.metadata">
     <summary>Creado por torete</summary>
     <description>Para el disfrute en familia</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon
-  id="plugin.video.SportsDevil"
-  version="2017.09.09"
-  name="SportsDevil"
-  provider-name="SportsDevil">
-  <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
-   <import addon="script.module.dateutil" />
-   <import addon="script.module.simplejson" />
-   <import addon="script.module.six" />
-   <import addon="script.module.requests" />
-   <import addon="script.module.livestreamer" />
-   <!-- <import addon="script.video.F4mProxy" /> -->
-   <!-- <import addon="plugin.video.f4mTester" /> -->
-  </requires>
-  <extension
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>video</provides>
-  </extension>
-  <extension point="xbmc.service" library="service/proxy_service.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary>Play videos of different ad-financed sports streaming sites</summary>
-    <description>Play videos of different ad-financed sports streaming sites.
-
-SportsDevil does not provide any streams of its own; stream quality, content and copyright are responsibility of the ad-financed source web site.
-
-For updates check the readme.
-    </description>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     <platform>all</platform>
   </extension>
 </addon>
@@ -170,7 +134,7 @@ For updates check the readme.
   </extension>
 </addon>
 
-<addon id="repository.parami" name="[COLOR lime]repositorio rincon gitano[/COLOR] Repo" version="1.0.0" provider-name="torete">
+<addon id="repository.parami" name="[COLOR yellow]repositorio rincon gitano[/COLOR] Repo" version="1.0.0" provider-name="torete">
     <extension point="xbmc.addon.repository" name="rincon gitano ">
         <info>https://raw.githubusercontent.com/elchoky38/repoparami/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/elchoky38/repoparami/master/Repositorio/addons.xml.md5</checksum>

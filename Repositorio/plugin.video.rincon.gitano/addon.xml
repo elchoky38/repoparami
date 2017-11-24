@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.rincon.gitano"
-       name="[COLOR fuchsia]g[/COLOR][COLOR green]i[/COLOR][COLOR yellow]t[/COLOR][COLOR orange]a[/COLOR][COLOR pink]no[/COLOR]"
-       version="1.0.1"
+       name="[COLOR fuchsia]rincon gitano[/COLOR]"
+       version="1.0.0"
        provider-name="torete">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -22,13 +22,11 @@
     <provides>video</provides>
   </extension>
   
-  <extension point="xbmc.addon.repository" name="rincon gitano ">
-        <info>https://raw.githubusercontent.com/elchoky38/repoparami/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/elchoky38/repoparami/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/elchoky38/master/Repositorio/</datadir>
+   <extension point="xbmc.addon.repository" name="rincon gitano">
+        <info>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/</datadir>
     </extension>
-  
-  
 	
   <extension point="xbmc.addon.metadata">
     <summary>Creado por torete</summary>
